@@ -56,8 +56,6 @@ public class Kafe01 {
         int hargaTotal = hargaItems[pilihanMenu - 1] * banyakItem;
         if (kodePromo.equals("DISKON50")) {
             hargaTotal *= 0.5;
-        } else if (kodePromo.equals("DISKON30")) {
-            hargaTotal *= 0.7;
         } else {
             System.out.println("Kode promo invalid. Tidak ada pengurangan total harga.");
         }
